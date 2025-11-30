@@ -1,0 +1,1661 @@
+[
+  {
+    "id": "T001",
+    "difficulty": 1,
+    "start_url": "https://windsurf.com/",
+    "goal_url": "https://windsurf.com/about",
+    "path": [
+      "https://windsurf.com/",
+      "https://windsurf.com/about"
+    ],
+    "user_goal": "Show me information about the company behind Windsurf and their mission.",
+    "route_description": "Navigate from the main page to a directly linked page.",
+    "requires_auth": false,
+    "auth_only_info_used": []
+  },
+  {
+    "id": "T002",
+    "difficulty": 3,
+    "start_url": "https://windsurf.com/",
+    "goal_url": "https://windsurf.com/account/login",
+    "path": [
+      "https://windsurf.com/",
+      "https://windsurf.com/account/login"
+    ],
+    "user_goal": "I need to log in to my Windsurf account.",
+    "route_description": "Navigate from the main page to a directly linked page.",
+    "requires_auth": true,
+    "auth_only_info_used": []
+  },
+  {
+    "id": "T003",
+    "difficulty": 1,
+    "start_url": "https://windsurf.com/",
+    "goal_url": "https://windsurf.com/blog",
+    "path": [
+      "https://windsurf.com/",
+      "https://windsurf.com/blog"
+    ],
+    "user_goal": "Show me the latest news and updates about Windsurf.",
+    "route_description": "Navigate from the main page to a directly linked page.",
+    "requires_auth": false,
+    "auth_only_info_used": [
+      "https://windsurf.com/blog"
+    ]
+  },
+  {
+    "id": "T004",
+    "difficulty": 1,
+    "start_url": "https://windsurf.com/",
+    "goal_url": "https://windsurf.com/blog/gartner-windsurf-cognition-magic-quadrant-ai-coding-assistants",
+    "path": [
+      "https://windsurf.com/",
+      "https://windsurf.com/blog/gartner-windsurf-cognition-magic-quadrant-ai-coding-assistants"
+    ],
+    "user_goal": "Show me the blog post about Windsurf being recognized as a Leader in Gartner's Magic Quadrant for AI Code Assistants.",
+    "route_description": "Navigate from the main page to a directly linked page.",
+    "requires_auth": false,
+    "auth_only_info_used": [
+      "https://windsurf.com/blog/gartner-windsurf-cognition-magic-quadrant-ai-coding-assistants"
+    ]
+  },
+  {
+    "id": "T005",
+    "difficulty": 1,
+    "start_url": "https://windsurf.com/",
+    "goal_url": "https://windsurf.com/blog/opus-4.5",
+    "path": [
+      "https://windsurf.com/",
+      "https://windsurf.com/blog/opus-4.5"
+    ],
+    "user_goal": "Show me the latest blog post about Opus 4.5 being available in Windsurf.",
+    "route_description": "Navigate from the main page to a directly linked page.",
+    "requires_auth": false,
+    "auth_only_info_used": [
+      "https://windsurf.com/blog/opus-4.5"
+    ]
+  },
+  {
+    "id": "T006",
+    "difficulty": 1,
+    "start_url": "https://windsurf.com/",
+    "goal_url": "https://windsurf.com/blog/swe-1-5",
+    "path": [
+      "https://windsurf.com/",
+      "https://windsurf.com/blog/swe-1-5"
+    ],
+    "user_goal": "Show me the details about the new SWE-1.5 AI agent model and how it improves software engineering tasks.",
+    "route_description": "Navigate from the main page to a directly linked page.",
+    "requires_auth": false,
+    "auth_only_info_used": [
+      "https://windsurf.com/blog/swe-1-5"
+    ]
+  },
+  {
+    "id": "T007",
+    "difficulty": 1,
+    "start_url": "https://windsurf.com/",
+    "goal_url": "https://windsurf.com/blog/windsurf-wave-11",
+    "path": [
+      "https://windsurf.com/",
+      "https://windsurf.com/blog/windsurf-wave-11"
+    ],
+    "user_goal": "Show me what's new in Windsurf Wave 11.",
+    "route_description": "Navigate from the main page to a directly linked page.",
+    "requires_auth": false,
+    "auth_only_info_used": []
+  },
+  {
+    "id": "T008",
+    "difficulty": 1,
+    "start_url": "https://windsurf.com/",
+    "goal_url": "https://windsurf.com/blog/windsurf-wave-12",
+    "path": [
+      "https://windsurf.com/",
+      "https://windsurf.com/blog/windsurf-wave-12"
+    ],
+    "user_goal": "Show me what's new in Windsurf Wave 12.",
+    "route_description": "Navigate from the main page to a directly linked page.",
+    "requires_auth": false,
+    "auth_only_info_used": [
+      "https://windsurf.com/blog/windsurf-wave-12"
+    ]
+  },
+  {
+    "id": "T009",
+    "difficulty": 1,
+    "start_url": "https://windsurf.com/",
+    "goal_url": "https://windsurf.com/blog/windsurfs-next-chapter",
+    "path": [
+      "https://windsurf.com/",
+      "https://windsurf.com/blog/windsurfs-next-chapter"
+    ],
+    "user_goal": "Show me the latest news about Windsurf's future and what's next for the company.",
+    "route_description": "Navigate from the main page to a directly linked page.",
+    "requires_auth": false,
+    "auth_only_info_used": [
+      "https://windsurf.com/blog/windsurfs-next-chapter"
+    ]
+  },
+  {
+    "id": "T010",
+    "difficulty": 1,
+    "start_url": "https://windsurf.com/",
+    "goal_url": "https://windsurf.com/brand",
+    "path": [
+      "https://windsurf.com/",
+      "https://windsurf.com/brand"
+    ],
+    "user_goal": "Show me the brand guidelines and logo assets for Windsurf.",
+    "route_description": "Navigate from the main page to a directly linked page.",
+    "requires_auth": false,
+    "auth_only_info_used": [
+      "https://windsurf.com/brand"
+    ]
+  },
+  {
+    "id": "T011",
+    "difficulty": 1,
+    "start_url": "https://windsurf.com/",
+    "goal_url": "https://windsurf.com/careers",
+    "path": [
+      "https://windsurf.com/",
+      "https://windsurf.com/careers"
+    ],
+    "user_goal": "I'd like to see what job opportunities are available at your company.",
+    "route_description": "Navigate from the main page to a directly linked page.",
+    "requires_auth": false,
+    "auth_only_info_used": [
+      "https://windsurf.com/careers"
+    ]
+  },
+  {
+    "id": "T012",
+    "difficulty": 1,
+    "start_url": "https://windsurf.com/",
+    "goal_url": "https://windsurf.com/cascade",
+    "path": [
+      "https://windsurf.com/",
+      "https://windsurf.com/cascade"
+    ],
+    "user_goal": "Show me more details about Cascade and how it works as an AI coding agent.",
+    "route_description": "Navigate from the main page to a directly linked page.",
+    "requires_auth": false,
+    "auth_only_info_used": [
+      "https://windsurf.com/cascade"
+    ]
+  },
+  {
+    "id": "T013",
+    "difficulty": 1,
+    "start_url": "https://windsurf.com/",
+    "goal_url": "https://windsurf.com/changelog",
+    "path": [
+      "https://windsurf.com/",
+      "https://windsurf.com/changelog"
+    ],
+    "user_goal": "Show me the version history and what's new in recent Windsurf updates.",
+    "route_description": "Navigate from the main page to a directly linked page.",
+    "requires_auth": false,
+    "auth_only_info_used": [
+      "https://windsurf.com/changelog"
+    ]
+  },
+  {
+    "id": "T014",
+    "difficulty": 1,
+    "start_url": "https://windsurf.com/",
+    "goal_url": "https://windsurf.com/community",
+    "path": [
+      "https://windsurf.com/",
+      "https://windsurf.com/community"
+    ],
+    "user_goal": "Show me how I can connect with the Windsurf community and other users.",
+    "route_description": "Navigate from the main page to a directly linked page.",
+    "requires_auth": false,
+    "auth_only_info_used": [
+      "https://windsurf.com/community"
+    ]
+  },
+  {
+    "id": "T015",
+    "difficulty": 1,
+    "start_url": "https://windsurf.com/",
+    "goal_url": "https://windsurf.com/compare/gartner-mq",
+    "path": [
+      "https://windsurf.com/",
+      "https://windsurf.com/compare/gartner-mq"
+    ],
+    "user_goal": "Show me how Windsurf compares in Gartner's Magic Quadrant for AI coding assistants.",
+    "route_description": "Navigate from the main page to a directly linked page.",
+    "requires_auth": false,
+    "auth_only_info_used": [
+      "https://windsurf.com/compare/gartner-mq"
+    ]
+  },
+  {
+    "id": "T016",
+    "difficulty": 1,
+    "start_url": "https://windsurf.com/",
+    "goal_url": "https://windsurf.com/compare/windsurf-vs-cursor",
+    "path": [
+      "https://windsurf.com/",
+      "https://windsurf.com/compare/windsurf-vs-cursor"
+    ],
+    "user_goal": "Show me how Windsurf compares to Cursor so I can decide which AI coding assistant is better for my needs.",
+    "route_description": "Navigate from the main page to a directly linked page.",
+    "requires_auth": false,
+    "auth_only_info_used": [
+      "https://windsurf.com/compare/windsurf-vs-cursor"
+    ]
+  },
+  {
+    "id": "T017",
+    "difficulty": 1,
+    "start_url": "https://windsurf.com/",
+    "goal_url": "https://windsurf.com/compare/windsurf-vs-github-copilot",
+    "path": [
+      "https://windsurf.com/",
+      "https://windsurf.com/compare/windsurf-vs-github-copilot"
+    ],
+    "user_goal": "Show me how Windsurf compares to GitHub Copilot so I can decide which AI coding tool is better for my needs.",
+    "route_description": "Navigate from the main page to a directly linked page.",
+    "requires_auth": false,
+    "auth_only_info_used": [
+      "https://windsurf.com/compare/windsurf-vs-github-copilot"
+    ]
+  },
+  {
+    "id": "T018",
+    "difficulty": 1,
+    "start_url": "https://windsurf.com/",
+    "goal_url": "https://windsurf.com/contact",
+    "path": [
+      "https://windsurf.com/",
+      "https://windsurf.com/contact"
+    ],
+    "user_goal": "I need to contact Windsurf support or get help with the product.",
+    "route_description": "Navigate from the main page to a directly linked page.",
+    "requires_auth": false,
+    "auth_only_info_used": [
+      "https://windsurf.com/contact"
+    ]
+  },
+  {
+    "id": "T019",
+    "difficulty": 1,
+    "start_url": "https://windsurf.com/",
+    "goal_url": "https://windsurf.com/download",
+    "path": [
+      "https://windsurf.com/",
+      "https://windsurf.com/download"
+    ],
+    "user_goal": "I'd like to download Windsurf for my computer.",
+    "route_description": "Navigate from the main page to a directly linked page.",
+    "requires_auth": false,
+    "auth_only_info_used": [
+      "https://windsurf.com/download"
+    ]
+  },
+  {
+    "id": "T020",
+    "difficulty": 1,
+    "start_url": "https://windsurf.com/",
+    "goal_url": "https://windsurf.com/editor",
+    "path": [
+      "https://windsurf.com/",
+      "https://windsurf.com/editor"
+    ],
+    "user_goal": "I want to learn more about the Windsurf Editor and its development environment features.",
+    "route_description": "Navigate from the main page to a directly linked page.",
+    "requires_auth": false,
+    "auth_only_info_used": [
+      "https://windsurf.com/editor"
+    ]
+  },
+  {
+    "id": "T021",
+    "difficulty": 1,
+    "start_url": "https://windsurf.com/",
+    "goal_url": "https://windsurf.com/editor/directory",
+    "path": [
+      "https://windsurf.com/",
+      "https://windsurf.com/editor/directory"
+    ],
+    "user_goal": "Show me the directory of coding rules that can help guide Cascade's AI responses.",
+    "route_description": "Navigate from the main page to a directly linked page.",
+    "requires_auth": false,
+    "auth_only_info_used": [
+      "https://windsurf.com/editor/directory"
+    ]
+  },
+  {
+    "id": "T022",
+    "difficulty": 1,
+    "start_url": "https://windsurf.com/",
+    "goal_url": "https://windsurf.com/editor/download",
+    "path": [
+      "https://windsurf.com/",
+      "https://windsurf.com/editor/download"
+    ],
+    "user_goal": "I need to download the Windsurf editor for my computer.",
+    "route_description": "Navigate from the main page to a directly linked page.",
+    "requires_auth": false,
+    "auth_only_info_used": [
+      "https://windsurf.com/editor/download"
+    ]
+  },
+  {
+    "id": "T023",
+    "difficulty": 1,
+    "start_url": "https://windsurf.com/",
+    "goal_url": "https://windsurf.com/editor/releases",
+    "path": [
+      "https://windsurf.com/",
+      "https://windsurf.com/editor/releases"
+    ],
+    "user_goal": "Show me the release history and download options for different versions of Windsurf.",
+    "route_description": "Navigate from the main page to a directly linked page.",
+    "requires_auth": false,
+    "auth_only_info_used": [
+      "https://windsurf.com/editor/releases"
+    ]
+  },
+  {
+    "id": "T024",
+    "difficulty": 1,
+    "start_url": "https://windsurf.com/",
+    "goal_url": "https://windsurf.com/editor/students",
+    "path": [
+      "https://windsurf.com/",
+      "https://windsurf.com/editor/students"
+    ],
+    "user_goal": "I want to learn about student discounts and programs available for Windsurf.",
+    "route_description": "Navigate from the main page to a directly linked page.",
+    "requires_auth": false,
+    "auth_only_info_used": [
+      "https://windsurf.com/editor/students"
+    ]
+  },
+  {
+    "id": "T025",
+    "difficulty": 1,
+    "start_url": "https://windsurf.com/",
+    "goal_url": "https://windsurf.com/enterprise",
+    "path": [
+      "https://windsurf.com/",
+      "https://windsurf.com/enterprise"
+    ],
+    "user_goal": "Show me the enterprise solutions and features available for large organizations.",
+    "route_description": "Navigate from the main page to a directly linked page.",
+    "requires_auth": false,
+    "auth_only_info_used": [
+      "https://windsurf.com/enterprise"
+    ]
+  },
+  {
+    "id": "T026",
+    "difficulty": 1,
+    "start_url": "https://windsurf.com/",
+    "goal_url": "https://windsurf.com/enterprise/government",
+    "path": [
+      "https://windsurf.com/",
+      "https://windsurf.com/enterprise/government"
+    ],
+    "user_goal": "Show me how Windsurf's AI development tools are designed for government and federal agency use.",
+    "route_description": "Navigate from the main page to a directly linked page.",
+    "requires_auth": false,
+    "auth_only_info_used": [
+      "https://windsurf.com/enterprise/government"
+    ]
+  },
+  {
+    "id": "T027",
+    "difficulty": 1,
+    "start_url": "https://windsurf.com/",
+    "goal_url": "https://windsurf.com/hackathons",
+    "path": [
+      "https://windsurf.com/",
+      "https://windsurf.com/hackathons"
+    ],
+    "user_goal": "Show me how Windsurf can help with hackathon projects.",
+    "route_description": "Navigate from the main page to a directly linked page.",
+    "requires_auth": false,
+    "auth_only_info_used": [
+      "https://windsurf.com/hackathons"
+    ]
+  },
+  {
+    "id": "T028",
+    "difficulty": 1,
+    "start_url": "https://windsurf.com/",
+    "goal_url": "https://windsurf.com/partnerships",
+    "path": [
+      "https://windsurf.com/",
+      "https://windsurf.com/partnerships"
+    ],
+    "user_goal": "I want to access the partner portal to manage my Windsurf partnership.",
+    "route_description": "Navigate from the main page to a directly linked page.",
+    "requires_auth": false,
+    "auth_only_info_used": [
+      "https://windsurf.com/partnerships"
+    ]
+  },
+  {
+    "id": "T029",
+    "difficulty": 1,
+    "start_url": "https://windsurf.com/",
+    "goal_url": "https://windsurf.com/plugins",
+    "path": [
+      "https://windsurf.com/",
+      "https://windsurf.com/plugins"
+    ],
+    "user_goal": "Show me what plugins are available for my code editor.",
+    "route_description": "Navigate from the main page to a directly linked page.",
+    "requires_auth": false,
+    "auth_only_info_used": [
+      "https://windsurf.com/plugins"
+    ]
+  },
+  {
+    "id": "T030",
+    "difficulty": 1,
+    "start_url": "https://windsurf.com/",
+    "goal_url": "https://windsurf.com/plugins/jetbrains",
+    "path": [
+      "https://windsurf.com/",
+      "https://windsurf.com/plugins/jetbrains"
+    ],
+    "user_goal": "Show me how to use Cascade in my JetBrains IDE.",
+    "route_description": "Navigate from the main page to a directly linked page.",
+    "requires_auth": false,
+    "auth_only_info_used": [
+      "https://windsurf.com/plugins/jetbrains"
+    ]
+  },
+  {
+    "id": "T031",
+    "difficulty": 1,
+    "start_url": "https://windsurf.com/",
+    "goal_url": "https://windsurf.com/pricing",
+    "path": [
+      "https://windsurf.com/",
+      "https://windsurf.com/pricing"
+    ],
+    "user_goal": "Show me the pricing plans for Windsurf.",
+    "route_description": "Navigate from the main page to a directly linked page.",
+    "requires_auth": false,
+    "auth_only_info_used": [
+      "https://windsurf.com/pricing"
+    ]
+  },
+  {
+    "id": "T032",
+    "difficulty": 1,
+    "start_url": "https://windsurf.com/",
+    "goal_url": "https://windsurf.com/privacy-policy",
+    "path": [
+      "https://windsurf.com/",
+      "https://windsurf.com/privacy-policy"
+    ],
+    "user_goal": "I need to review Windsurf's privacy policy to understand how my data is collected and used.",
+    "route_description": "Navigate from the main page to a directly linked page.",
+    "requires_auth": false,
+    "auth_only_info_used": [
+      "https://windsurf.com/privacy-policy"
+    ]
+  },
+  {
+    "id": "T033",
+    "difficulty": 1,
+    "start_url": "https://windsurf.com/",
+    "goal_url": "https://windsurf.com/refer",
+    "path": [
+      "https://windsurf.com/",
+      "https://windsurf.com/refer"
+    ],
+    "user_goal": "I want to learn about Windsurf's referral program and how I can earn bonus credits by inviting friends.",
+    "route_description": "Navigate from the main page to a directly linked page.",
+    "requires_auth": false,
+    "auth_only_info_used": [
+      "https://windsurf.com/refer"
+    ]
+  },
+  {
+    "id": "T034",
+    "difficulty": 1,
+    "start_url": "https://windsurf.com/",
+    "goal_url": "https://windsurf.com/reviews",
+    "path": [
+      "https://windsurf.com/",
+      "https://windsurf.com/reviews"
+    ],
+    "user_goal": "Show me information about the AI-powered pull request review tool.",
+    "route_description": "Navigate from the main page to a directly linked page.",
+    "requires_auth": false,
+    "auth_only_info_used": [
+      "https://windsurf.com/reviews"
+    ]
+  },
+  {
+    "id": "T035",
+    "difficulty": 1,
+    "start_url": "https://windsurf.com/",
+    "goal_url": "https://windsurf.com/security",
+    "path": [
+      "https://windsurf.com/",
+      "https://windsurf.com/security"
+    ],
+    "user_goal": "Show me Windsurf's security practices and data protection policies.",
+    "route_description": "Navigate from the main page to a directly linked page.",
+    "requires_auth": false,
+    "auth_only_info_used": [
+      "https://windsurf.com/security"
+    ]
+  },
+  {
+    "id": "T036",
+    "difficulty": 1,
+    "start_url": "https://windsurf.com/",
+    "goal_url": "https://windsurf.com/support",
+    "path": [
+      "https://windsurf.com/",
+      "https://windsurf.com/support"
+    ],
+    "user_goal": "I need help with Windsurf and want to see the available support options and documentation.",
+    "route_description": "Navigate from the main page to a directly linked page.",
+    "requires_auth": false,
+    "auth_only_info_used": [
+      "https://windsurf.com/support"
+    ]
+  },
+  {
+    "id": "T037",
+    "difficulty": 1,
+    "start_url": "https://windsurf.com/",
+    "goal_url": "https://windsurf.com/tab",
+    "path": [
+      "https://windsurf.com/",
+      "https://windsurf.com/tab"
+    ],
+    "user_goal": "Show me more details about the Tab autocomplete feature and how it works.",
+    "route_description": "Navigate from the main page to a directly linked page.",
+    "requires_auth": false,
+    "auth_only_info_used": [
+      "https://windsurf.com/tab"
+    ]
+  },
+  {
+    "id": "T038",
+    "difficulty": 1,
+    "start_url": "https://windsurf.com/",
+    "goal_url": "https://windsurf.com/terms-of-service-individual",
+    "path": [
+      "https://windsurf.com/",
+      "https://windsurf.com/terms-of-service-individual"
+    ],
+    "user_goal": "Show me the terms of service for individual users of Windsurf.",
+    "route_description": "Navigate from the main page to a directly linked page.",
+    "requires_auth": false,
+    "auth_only_info_used": [
+      "https://windsurf.com/terms-of-service-individual"
+    ]
+  },
+  {
+    "id": "T039",
+    "difficulty": 1,
+    "start_url": "https://windsurf.com/",
+    "goal_url": "https://windsurf.com/university",
+    "path": [
+      "https://windsurf.com/",
+      "https://windsurf.com/university"
+    ],
+    "user_goal": "Show me the learning resources and tutorials available for Windsurf.",
+    "route_description": "Navigate from the main page to a directly linked page.",
+    "requires_auth": false,
+    "auth_only_info_used": [
+      "https://windsurf.com/university"
+    ]
+  },
+  {
+    "id": "T040",
+    "difficulty": 2,
+    "start_url": "https://windsurf.com/",
+    "goal_url": "https://windsurf.com/blog/cognition-windsurf-il6",
+    "path": [
+      "https://windsurf.com/",
+      "https://windsurf.com/about",
+      "https://windsurf.com/blog/cognition-windsurf-il6"
+    ],
+    "user_goal": "Show me the blog post about Windsurf's partnership with Cognition for government and IL6 deployments.",
+    "route_description": "Navigate from the main page through intermediate pages to a specific target page.",
+    "requires_auth": false,
+    "auth_only_info_used": [
+      "https://windsurf.com/blog/cognition-windsurf-il6"
+    ]
+  },
+  {
+    "id": "T041",
+    "difficulty": 2,
+    "start_url": "https://windsurf.com/",
+    "goal_url": "https://windsurf.com/blog/gpt-5-1",
+    "path": [
+      "https://windsurf.com/",
+      "https://windsurf.com/about",
+      "https://windsurf.com/blog/gpt-5-1"
+    ],
+    "user_goal": "Show me the blog post about GPT 5.1 being available in Windsurf Editor.",
+    "route_description": "Navigate from the main page through intermediate pages to a specific target page.",
+    "requires_auth": false,
+    "auth_only_info_used": [
+      "https://windsurf.com/blog/gpt-5-1"
+    ]
+  },
+  {
+    "id": "T042",
+    "difficulty": 2,
+    "start_url": "https://windsurf.com/",
+    "goal_url": "https://windsurf.com/blog/our-commitment-cognition-partnership",
+    "path": [
+      "https://windsurf.com/",
+      "https://windsurf.com/about",
+      "https://windsurf.com/blog/our-commitment-cognition-partnership"
+    ],
+    "user_goal": "Show me Windsurf's statement about their partnership with Cognition and what it means for the product's future.",
+    "route_description": "Navigate from the main page through intermediate pages to a specific target page.",
+    "requires_auth": false,
+    "auth_only_info_used": []
+  },
+  {
+    "id": "T043",
+    "difficulty": 3,
+    "start_url": "https://windsurf.com/",
+    "goal_url": "https://windsurf.com/profile",
+    "path": [
+      "https://windsurf.com/",
+      "https://windsurf.com/account/login",
+      "https://windsurf.com/profile"
+    ],
+    "user_goal": "Show me my account statistics and coding activity.",
+    "route_description": "Navigate from the main page through intermediate pages to a specific target page.",
+    "requires_auth": true,
+    "auth_only_info_used": [
+      "https://windsurf.com/profile"
+    ]
+  },
+  {
+    "id": "T044",
+    "difficulty": 2,
+    "start_url": "https://windsurf.com/",
+    "goal_url": "https://windsurf.com/blog/queued-messages",
+    "path": [
+      "https://windsurf.com/",
+      "https://windsurf.com/blog",
+      "https://windsurf.com/blog/queued-messages"
+    ],
+    "user_goal": "Show me the blog post about the new Queued Messages feature in Windsurf.",
+    "route_description": "Navigate from the main page through intermediate pages to a specific target page.",
+    "requires_auth": false,
+    "auth_only_info_used": [
+      "https://windsurf.com/blog",
+      "https://windsurf.com/blog/queued-messages"
+    ]
+  },
+  {
+    "id": "T045",
+    "difficulty": 2,
+    "start_url": "https://windsurf.com/",
+    "goal_url": "https://windsurf.com/compare/gartner-mq?utm_source=blog&utm_medium=referral&utm_campaign=gartner-magic-quadrant",
+    "path": [
+      "https://windsurf.com/",
+      "https://windsurf.com/blog/gartner-windsurf-cognition-magic-quadrant-ai-coding-assistants",
+      "https://windsurf.com/compare/gartner-mq?utm_source=blog&utm_medium=referral&utm_campaign=gartner-magic-quadrant"
+    ],
+    "user_goal": "Show me how Windsurf compares to other tools in the Gartner Magic Quadrant for AI Code Assistants.",
+    "route_description": "Navigate from the main page through intermediate pages to a specific target page.",
+    "requires_auth": false,
+    "auth_only_info_used": [
+      "https://windsurf.com/blog/gartner-windsurf-cognition-magic-quadrant-ai-coding-assistants"
+    ]
+  },
+  {
+    "id": "T046",
+    "difficulty": 2,
+    "start_url": "https://windsurf.com/",
+    "goal_url": "https://windsurf.com/download/editor",
+    "path": [
+      "https://windsurf.com/",
+      "https://windsurf.com/blog/opus-4.5",
+      "https://windsurf.com/download/editor"
+    ],
+    "user_goal": "I'd like to download the Windsurf editor to start using it for development.",
+    "route_description": "Navigate from the main page through intermediate pages to a specific target page.",
+    "requires_auth": false,
+    "auth_only_info_used": [
+      "https://windsurf.com/blog/opus-4.5"
+    ]
+  },
+  {
+    "id": "T047",
+    "difficulty": 2,
+    "start_url": "https://windsurf.com/",
+    "goal_url": "https://windsurf.com/blog/windsurf-wave-10-browser",
+    "path": [
+      "https://windsurf.com/",
+      "https://windsurf.com/blog/windsurf-wave-11",
+      "https://windsurf.com/blog/windsurf-wave-10-browser"
+    ],
+    "user_goal": "Show me the announcement about the Windsurf Browser and how it integrates with the editor.",
+    "route_description": "Navigate from the main page through intermediate pages to a specific target page.",
+    "requires_auth": false,
+    "auth_only_info_used": []
+  },
+  {
+    "id": "T048",
+    "difficulty": 2,
+    "start_url": "https://windsurf.com/",
+    "goal_url": "https://windsurf.com/blog/windsurf-wave-10-planning-mode",
+    "path": [
+      "https://windsurf.com/",
+      "https://windsurf.com/blog/windsurf-wave-11",
+      "https://windsurf.com/blog/windsurf-wave-10-planning-mode"
+    ],
+    "user_goal": "Show me the blog post about Planning Mode in Windsurf Wave 10.",
+    "route_description": "Navigate from the main page through intermediate pages to a specific target page.",
+    "requires_auth": false,
+    "auth_only_info_used": []
+  },
+  {
+    "id": "T049",
+    "difficulty": 2,
+    "start_url": "https://windsurf.com/",
+    "goal_url": "https://windsurf.com/blog/windsurf-wave-7",
+    "path": [
+      "https://windsurf.com/",
+      "https://windsurf.com/blog/windsurf-wave-11",
+      "https://windsurf.com/blog/windsurf-wave-7"
+    ],
+    "user_goal": "Show me the blog post about Windsurf Wave 7 and the JetBrains plugin announcement.",
+    "route_description": "Navigate from the main page through intermediate pages to a specific target page.",
+    "requires_auth": false,
+    "auth_only_info_used": []
+  },
+  {
+    "id": "T050",
+    "difficulty": 2,
+    "start_url": "https://windsurf.com/",
+    "goal_url": "https://windsurf.com/changelog/jetbrains",
+    "path": [
+      "https://windsurf.com/",
+      "https://windsurf.com/changelog",
+      "https://windsurf.com/changelog/jetbrains"
+    ],
+    "user_goal": "Show me the changelog for Windsurf's JetBrains integration.",
+    "route_description": "Navigate from the main page through intermediate pages to a specific target page.",
+    "requires_auth": false,
+    "auth_only_info_used": [
+      "https://windsurf.com/changelog"
+    ]
+  },
+  {
+    "id": "T051",
+    "difficulty": 2,
+    "start_url": "https://windsurf.com/",
+    "goal_url": "https://windsurf.com/changelog/windsurf-next",
+    "path": [
+      "https://windsurf.com/",
+      "https://windsurf.com/changelog",
+      "https://windsurf.com/changelog/windsurf-next"
+    ],
+    "user_goal": "Show me the latest upcoming changes in the Windsurf next release.",
+    "route_description": "Navigate from the main page through intermediate pages to a specific target page.",
+    "requires_auth": false,
+    "auth_only_info_used": [
+      "https://windsurf.com/changelog"
+    ]
+  },
+  {
+    "id": "T052",
+    "difficulty": 2,
+    "start_url": "https://windsurf.com/",
+    "goal_url": "https://windsurf.com/subscription/provider-api-keys",
+    "path": [
+      "https://windsurf.com/",
+      "https://windsurf.com/changelog",
+      "https://windsurf.com/subscription/provider-api-keys"
+    ],
+    "user_goal": "I need to manage my API keys for third-party AI model providers in Windsurf.",
+    "route_description": "Navigate from the main page through intermediate pages to a specific target page.",
+    "requires_auth": false,
+    "auth_only_info_used": [
+      "https://windsurf.com/changelog",
+      "https://windsurf.com/subscription/provider-api-keys"
+    ]
+  },
+  {
+    "id": "T053",
+    "difficulty": 2,
+    "start_url": "https://windsurf.com/",
+    "goal_url": "https://windsurf.com/enterprise/contact",
+    "path": [
+      "https://windsurf.com/",
+      "https://windsurf.com/compare/gartner-mq",
+      "https://windsurf.com/enterprise/contact"
+    ],
+    "user_goal": "I'd like to get in touch with the enterprise sales team to discuss Windsurf for my organization.",
+    "route_description": "Navigate from the main page through intermediate pages to a specific target page.",
+    "requires_auth": false,
+    "auth_only_info_used": [
+      "https://windsurf.com/compare/gartner-mq"
+    ]
+  },
+  {
+    "id": "T054",
+    "difficulty": 2,
+    "start_url": "https://windsurf.com/",
+    "goal_url": "https://windsurf.com/events",
+    "path": [
+      "https://windsurf.com/",
+      "https://windsurf.com/compare/gartner-mq",
+      "https://windsurf.com/events"
+    ],
+    "user_goal": "Show me upcoming events or community gatherings related to Windsurf.",
+    "route_description": "Navigate from the main page through intermediate pages to a specific target page.",
+    "requires_auth": false,
+    "auth_only_info_used": [
+      "https://windsurf.com/compare/gartner-mq"
+    ]
+  },
+  {
+    "id": "T055",
+    "difficulty": 2,
+    "start_url": "https://windsurf.com/",
+    "goal_url": "https://windsurf.com/blog/codeium-is-soc2-type2-compliant",
+    "path": [
+      "https://windsurf.com/",
+      "https://windsurf.com/compare/windsurf-vs-cursor",
+      "https://windsurf.com/blog/codeium-is-soc2-type2-compliant"
+    ],
+    "user_goal": "Show me information about Codeium's SOC 2 Type 2 compliance certification.",
+    "route_description": "Navigate from the main page through intermediate pages to a specific target page.",
+    "requires_auth": false,
+    "auth_only_info_used": [
+      "https://windsurf.com/compare/windsurf-vs-cursor"
+    ]
+  },
+  {
+    "id": "T056",
+    "difficulty": 2,
+    "start_url": "https://windsurf.com/",
+    "goal_url": "https://windsurf.com/blog/fedramp-certification",
+    "path": [
+      "https://windsurf.com/",
+      "https://windsurf.com/compare/windsurf-vs-cursor",
+      "https://windsurf.com/blog/fedramp-certification"
+    ],
+    "user_goal": "Show me information about Windsurf's FedRAMP certification.",
+    "route_description": "Navigate from the main page through intermediate pages to a specific target page.",
+    "requires_auth": false,
+    "auth_only_info_used": [
+      "https://windsurf.com/compare/windsurf-vs-cursor"
+    ]
+  },
+  {
+    "id": "T057",
+    "difficulty": 2,
+    "start_url": "https://windsurf.com/",
+    "goal_url": "https://windsurf.com/blog/gartner-codeium-magic-quadrant-critical-capabilities",
+    "path": [
+      "https://windsurf.com/",
+      "https://windsurf.com/compare/windsurf-vs-cursor",
+      "https://windsurf.com/blog/gartner-codeium-magic-quadrant-critical-capabilities"
+    ],
+    "user_goal": "Show me the article about Gartner's assessment of Codeium in their Magic Quadrant for critical capabilities.",
+    "route_description": "Navigate from the main page through intermediate pages to a specific target page.",
+    "requires_auth": false,
+    "auth_only_info_used": [
+      "https://windsurf.com/compare/windsurf-vs-cursor"
+    ]
+  },
+  {
+    "id": "T058",
+    "difficulty": 2,
+    "start_url": "https://windsurf.com/",
+    "goal_url": "https://windsurf.com/blog/athena-health-case-study",
+    "path": [
+      "https://windsurf.com/",
+      "https://windsurf.com/editor",
+      "https://windsurf.com/blog/athena-health-case-study"
+    ],
+    "user_goal": "Show me the Athena Health case study about using Windsurf.",
+    "route_description": "Navigate from the main page through intermediate pages to a specific target page.",
+    "requires_auth": false,
+    "auth_only_info_used": [
+      "https://windsurf.com/editor"
+    ]
+  },
+  {
+    "id": "T059",
+    "difficulty": 2,
+    "start_url": "https://windsurf.com/",
+    "goal_url": "https://windsurf.com/blog/jpmc-codeium-hall-of-innovation",
+    "path": [
+      "https://windsurf.com/",
+      "https://windsurf.com/editor",
+      "https://windsurf.com/blog/jpmc-codeium-hall-of-innovation"
+    ],
+    "user_goal": "Show me the blog post about JP Morgan Chase and Codeium's Hall of Innovation recognition.",
+    "route_description": "Navigate from the main page through intermediate pages to a specific target page.",
+    "requires_auth": false,
+    "auth_only_info_used": [
+      "https://windsurf.com/editor"
+    ]
+  },
+  {
+    "id": "T060",
+    "difficulty": 2,
+    "start_url": "https://windsurf.com/",
+    "goal_url": "https://windsurf.com/blog/mercado-libre-case-study",
+    "path": [
+      "https://windsurf.com/",
+      "https://windsurf.com/editor",
+      "https://windsurf.com/blog/mercado-libre-case-study"
+    ],
+    "user_goal": "Show me the Mercado Libre case study about how they use Windsurf.",
+    "route_description": "Navigate from the main page through intermediate pages to a specific target page.",
+    "requires_auth": false,
+    "auth_only_info_used": [
+      "https://windsurf.com/editor"
+    ]
+  },
+  {
+    "id": "T061",
+    "difficulty": 2,
+    "start_url": "https://windsurf.com/",
+    "goal_url": "https://windsurf.com/download/editor?next=true",
+    "path": [
+      "https://windsurf.com/",
+      "https://windsurf.com/editor/download",
+      "https://windsurf.com/download/editor?next=true"
+    ],
+    "user_goal": "I want to download the next version of Windsurf Editor to get early access to upcoming features.",
+    "route_description": "Navigate from the main page through intermediate pages to a specific target page.",
+    "requires_auth": false,
+    "auth_only_info_used": [
+      "https://windsurf.com/editor/download"
+    ]
+  },
+  {
+    "id": "T062",
+    "difficulty": 2,
+    "start_url": "https://windsurf.com/",
+    "goal_url": "https://windsurf.com/download/editor?os=linux",
+    "path": [
+      "https://windsurf.com/",
+      "https://windsurf.com/editor/download",
+      "https://windsurf.com/download/editor?os=linux"
+    ],
+    "user_goal": "I need to download Windsurf Editor for Linux.",
+    "route_description": "Navigate from the main page through intermediate pages to a specific target page.",
+    "requires_auth": false,
+    "auth_only_info_used": [
+      "https://windsurf.com/editor/download"
+    ]
+  },
+  {
+    "id": "T063",
+    "difficulty": 2,
+    "start_url": "https://windsurf.com/",
+    "goal_url": "https://windsurf.com/account/register",
+    "path": [
+      "https://windsurf.com/",
+      "https://windsurf.com/editor/students",
+      "https://windsurf.com/account/register"
+    ],
+    "user_goal": "I'd like to create an account for Windsurf.",
+    "route_description": "Navigate from the main page through intermediate pages to a specific target page.",
+    "requires_auth": false,
+    "auth_only_info_used": [
+      "https://windsurf.com/editor/students"
+    ]
+  },
+  {
+    "id": "T064",
+    "difficulty": 2,
+    "start_url": "https://windsurf.com/",
+    "goal_url": "https://windsurf.com/pricing/teams",
+    "path": [
+      "https://windsurf.com/",
+      "https://windsurf.com/enterprise",
+      "https://windsurf.com/pricing/teams"
+    ],
+    "user_goal": "Show me the pricing options for teams using Windsurf.",
+    "route_description": "Navigate from the main page through intermediate pages to a specific target page.",
+    "requires_auth": false,
+    "auth_only_info_used": [
+      "https://windsurf.com/enterprise"
+    ]
+  },
+  {
+    "id": "T065",
+    "difficulty": 2,
+    "start_url": "https://windsurf.com/",
+    "goal_url": "https://windsurf.com/blog/drw-case-study",
+    "path": [
+      "https://windsurf.com/",
+      "https://windsurf.com/enterprise/government",
+      "https://windsurf.com/blog/drw-case-study"
+    ],
+    "user_goal": "Show me the case study about DRW's experience with Windsurf.",
+    "route_description": "Navigate from the main page through intermediate pages to a specific target page.",
+    "requires_auth": false,
+    "auth_only_info_used": [
+      "https://windsurf.com/enterprise/government"
+    ]
+  },
+  {
+    "id": "T066",
+    "difficulty": 2,
+    "start_url": "https://windsurf.com/",
+    "goal_url": "https://windsurf.com/blog/zillow-codeium-case-study",
+    "path": [
+      "https://windsurf.com/",
+      "https://windsurf.com/enterprise/government",
+      "https://windsurf.com/blog/zillow-codeium-case-study"
+    ],
+    "user_goal": "Show me the Zillow case study about how they use Codeium.",
+    "route_description": "Navigate from the main page through intermediate pages to a specific target page.",
+    "requires_auth": false,
+    "auth_only_info_used": [
+      "https://windsurf.com/enterprise/government"
+    ]
+  },
+  {
+    "id": "T067",
+    "difficulty": 2,
+    "start_url": "https://windsurf.com/",
+    "goal_url": "https://windsurf.com/compare",
+    "path": [
+      "https://windsurf.com/",
+      "https://windsurf.com/plugins",
+      "https://windsurf.com/compare"
+    ],
+    "user_goal": "Show me how Windsurf compares to other AI coding assistants like GitHub Copilot.",
+    "route_description": "Navigate from the main page through intermediate pages to a specific target page.",
+    "requires_auth": false,
+    "auth_only_info_used": [
+      "https://windsurf.com/plugins"
+    ]
+  },
+  {
+    "id": "T068",
+    "difficulty": 2,
+    "start_url": "https://windsurf.com/",
+    "goal_url": "https://windsurf.com/billing/individual?plan=2",
+    "path": [
+      "https://windsurf.com/",
+      "https://windsurf.com/pricing",
+      "https://windsurf.com/billing/individual?plan=2"
+    ],
+    "user_goal": "I'd like to sign up for the Windsurf Pro individual plan.",
+    "route_description": "Navigate from the main page through intermediate pages to a specific target page.",
+    "requires_auth": false,
+    "auth_only_info_used": [
+      "https://windsurf.com/pricing"
+    ]
+  },
+  {
+    "id": "T069",
+    "difficulty": 2,
+    "start_url": "https://windsurf.com/",
+    "goal_url": "https://windsurf.com/california-resident-privacy-notice",
+    "path": [
+      "https://windsurf.com/",
+      "https://windsurf.com/privacy-policy",
+      "https://windsurf.com/california-resident-privacy-notice"
+    ],
+    "user_goal": "Show me the privacy notice for California residents.",
+    "route_description": "Navigate from the main page through intermediate pages to a specific target page.",
+    "requires_auth": false,
+    "auth_only_info_used": [
+      "https://windsurf.com/privacy-policy"
+    ]
+  },
+  {
+    "id": "T070",
+    "difficulty": 2,
+    "start_url": "https://windsurf.com/",
+    "goal_url": "https://windsurf.com/refer/terms-of-service",
+    "path": [
+      "https://windsurf.com/",
+      "https://windsurf.com/refer",
+      "https://windsurf.com/refer/terms-of-service"
+    ],
+    "user_goal": "Show me the terms of service for the Windsurf referral program.",
+    "route_description": "Navigate from the main page through intermediate pages to a specific target page.",
+    "requires_auth": false,
+    "auth_only_info_used": [
+      "https://windsurf.com/refer"
+    ]
+  },
+  {
+    "id": "T071",
+    "difficulty": 2,
+    "start_url": "https://windsurf.com/",
+    "goal_url": "https://windsurf.com/acceptable-use-policy",
+    "path": [
+      "https://windsurf.com/",
+      "https://windsurf.com/security",
+      "https://windsurf.com/acceptable-use-policy"
+    ],
+    "user_goal": "Show me the acceptable use policy for Windsurf.",
+    "route_description": "Navigate from the main page through intermediate pages to a specific target page.",
+    "requires_auth": false,
+    "auth_only_info_used": [
+      "https://windsurf.com/security"
+    ]
+  },
+  {
+    "id": "T072",
+    "difficulty": 2,
+    "start_url": "https://windsurf.com/",
+    "goal_url": "https://windsurf.com/contact/enterprise",
+    "path": [
+      "https://windsurf.com/",
+      "https://windsurf.com/security",
+      "https://windsurf.com/contact/enterprise"
+    ],
+    "user_goal": "I need to get in touch with someone about using Windsurf for my enterprise or business.",
+    "route_description": "Navigate from the main page through intermediate pages to a specific target page.",
+    "requires_auth": false,
+    "auth_only_info_used": [
+      "https://windsurf.com/security"
+    ]
+  },
+  {
+    "id": "T073",
+    "difficulty": 2,
+    "start_url": "https://windsurf.com/",
+    "goal_url": "https://windsurf.com/terms-of-service-teams",
+    "path": [
+      "https://windsurf.com/",
+      "https://windsurf.com/terms-of-service-individual",
+      "https://windsurf.com/terms-of-service-teams"
+    ],
+    "user_goal": "Show me the terms of service for Windsurf Teams.",
+    "route_description": "Navigate from the main page through intermediate pages to a specific target page.",
+    "requires_auth": false,
+    "auth_only_info_used": [
+      "https://windsurf.com/terms-of-service-individual"
+    ]
+  },
+  {
+    "id": "T074",
+    "difficulty": 2,
+    "start_url": "https://windsurf.com/",
+    "goal_url": "https://windsurf.com/university/general-education",
+    "path": [
+      "https://windsurf.com/",
+      "https://windsurf.com/university",
+      "https://windsurf.com/university/general-education"
+    ],
+    "user_goal": "Show me the general education courses available at Windsurf University.",
+    "route_description": "Navigate from the main page through intermediate pages to a specific target page.",
+    "requires_auth": false,
+    "auth_only_info_used": [
+      "https://windsurf.com/university"
+    ]
+  },
+  {
+    "id": "T075",
+    "difficulty": 2,
+    "start_url": "https://windsurf.com/",
+    "goal_url": "https://windsurf.com/university/lectures",
+    "path": [
+      "https://windsurf.com/",
+      "https://windsurf.com/university",
+      "https://windsurf.com/university/lectures"
+    ],
+    "user_goal": "Show me the available lectures at Windsurf University.",
+    "route_description": "Navigate from the main page through intermediate pages to a specific target page.",
+    "requires_auth": false,
+    "auth_only_info_used": [
+      "https://windsurf.com/university"
+    ]
+  },
+  {
+    "id": "T076",
+    "difficulty": 2,
+    "start_url": "https://windsurf.com/",
+    "goal_url": "https://windsurf.com/university/tutorials",
+    "path": [
+      "https://windsurf.com/",
+      "https://windsurf.com/university",
+      "https://windsurf.com/university/tutorials"
+    ],
+    "user_goal": "Show me the tutorials available in Windsurf University.",
+    "route_description": "Navigate from the main page through intermediate pages to a specific target page.",
+    "requires_auth": false,
+    "auth_only_info_used": [
+      "https://windsurf.com/university"
+    ]
+  },
+  {
+    "id": "T077",
+    "difficulty": 3,
+    "start_url": "https://windsurf.com/",
+    "goal_url": "https://windsurf.com/conversation-share",
+    "path": [
+      "https://windsurf.com/",
+      "https://windsurf.com/account/login",
+      "https://windsurf.com/profile",
+      "https://windsurf.com/conversation-share"
+    ],
+    "user_goal": "Show me my shared conversations in Windsurf.",
+    "route_description": "Navigate from the main page through intermediate pages to a specific target page.",
+    "requires_auth": true,
+    "auth_only_info_used": [
+      "https://windsurf.com/profile",
+      "https://windsurf.com/conversation-share"
+    ]
+  },
+  {
+    "id": "T078",
+    "difficulty": 3,
+    "start_url": "https://windsurf.com/",
+    "goal_url": "https://windsurf.com/deploy",
+    "path": [
+      "https://windsurf.com/",
+      "https://windsurf.com/account/login",
+      "https://windsurf.com/profile",
+      "https://windsurf.com/deploy"
+    ],
+    "user_goal": "I want to see my deployed applications and learn how to deploy my first app.",
+    "route_description": "Navigate from the main page through intermediate pages to a specific target page.",
+    "requires_auth": true,
+    "auth_only_info_used": [
+      "https://windsurf.com/profile",
+      "https://windsurf.com/deploy"
+    ]
+  },
+  {
+    "id": "T079",
+    "difficulty": 3,
+    "start_url": "https://windsurf.com/",
+    "goal_url": "https://windsurf.com/notifications",
+    "path": [
+      "https://windsurf.com/",
+      "https://windsurf.com/account/login",
+      "https://windsurf.com/profile",
+      "https://windsurf.com/notifications"
+    ],
+    "user_goal": "Show me my account notifications.",
+    "route_description": "Navigate from the main page through intermediate pages to a specific target page.",
+    "requires_auth": true,
+    "auth_only_info_used": [
+      "https://windsurf.com/profile",
+      "https://windsurf.com/notifications"
+    ]
+  },
+  {
+    "id": "T080",
+    "difficulty": 3,
+    "start_url": "https://windsurf.com/",
+    "goal_url": "https://windsurf.com/settings",
+    "path": [
+      "https://windsurf.com/",
+      "https://windsurf.com/account/login",
+      "https://windsurf.com/profile",
+      "https://windsurf.com/settings"
+    ],
+    "user_goal": "I need to adjust my account settings and update my profile information.",
+    "route_description": "Navigate from the main page through intermediate pages to a specific target page.",
+    "requires_auth": true,
+    "auth_only_info_used": [
+      "https://windsurf.com/profile",
+      "https://windsurf.com/settings"
+    ]
+  },
+  {
+    "id": "T081",
+    "difficulty": 3,
+    "start_url": "https://windsurf.com/",
+    "goal_url": "https://windsurf.com/subscription/manage-plan",
+    "path": [
+      "https://windsurf.com/",
+      "https://windsurf.com/account/login",
+      "https://windsurf.com/profile",
+      "https://windsurf.com/subscription/manage-plan"
+    ],
+    "user_goal": "I need to manage my Windsurf subscription plan and see my billing options.",
+    "route_description": "Navigate from the main page through intermediate pages to a specific target page.",
+    "requires_auth": true,
+    "auth_only_info_used": [
+      "https://windsurf.com/profile",
+      "https://windsurf.com/subscription/manage-plan"
+    ]
+  },
+  {
+    "id": "T082",
+    "difficulty": 3,
+    "start_url": "https://windsurf.com/",
+    "goal_url": "https://windsurf.com/subscription/usage",
+    "path": [
+      "https://windsurf.com/",
+      "https://windsurf.com/account/login",
+      "https://windsurf.com/profile",
+      "https://windsurf.com/subscription/usage"
+    ],
+    "user_goal": "Show me my subscription usage and remaining credits.",
+    "route_description": "Navigate from the main page through intermediate pages to a specific target page.",
+    "requires_auth": true,
+    "auth_only_info_used": [
+      "https://windsurf.com/profile",
+      "https://windsurf.com/subscription/usage"
+    ]
+  },
+  {
+    "id": "T083",
+    "difficulty": 2,
+    "start_url": "https://windsurf.com/",
+    "goal_url": "https://windsurf.com/blog/windsurf-wave-4",
+    "path": [
+      "https://windsurf.com/",
+      "https://windsurf.com/blog/windsurf-wave-11",
+      "https://windsurf.com/blog/windsurf-wave-10-browser",
+      "https://windsurf.com/blog/windsurf-wave-4"
+    ],
+    "user_goal": "Show me what's new in Windsurf Wave 4.",
+    "route_description": "Navigate from the main page through intermediate pages to a specific target page.",
+    "requires_auth": false,
+    "auth_only_info_used": []
+  },
+  {
+    "id": "T084",
+    "difficulty": 2,
+    "start_url": "https://windsurf.com/",
+    "goal_url": "https://windsurf.com/blog/windsurf-wave-9-swe-1",
+    "path": [
+      "https://windsurf.com/",
+      "https://windsurf.com/blog/windsurf-wave-11",
+      "https://windsurf.com/blog/windsurf-wave-10-browser",
+      "https://windsurf.com/blog/windsurf-wave-9-swe-1"
+    ],
+    "user_goal": "Show me the details about Windsurf's SWE-1 AI models for software engineering.",
+    "route_description": "Navigate from the main page through intermediate pages to a specific target page.",
+    "requires_auth": false,
+    "auth_only_info_used": []
+  },
+  {
+    "id": "T085",
+    "difficulty": 2,
+    "start_url": "https://windsurf.com/",
+    "goal_url": "https://windsurf.com/blog/windsurf-wave-8-teams-and-enterprise",
+    "path": [
+      "https://windsurf.com/",
+      "https://windsurf.com/blog/windsurf-wave-11",
+      "https://windsurf.com/blog/windsurf-wave-10-planning-mode",
+      "https://windsurf.com/blog/windsurf-wave-8-teams-and-enterprise"
+    ],
+    "user_goal": "Show me the blog post about Windsurf Wave 8's new teams and enterprise features.",
+    "route_description": "Navigate from the main page through intermediate pages to a specific target page.",
+    "requires_auth": false,
+    "auth_only_info_used": []
+  },
+  {
+    "id": "T086",
+    "difficulty": 2,
+    "start_url": "https://windsurf.com/",
+    "goal_url": "https://windsurf.com/blog/windsurf-rebrand-announcement",
+    "path": [
+      "https://windsurf.com/",
+      "https://windsurf.com/blog/windsurf-wave-11",
+      "https://windsurf.com/blog/windsurf-wave-7",
+      "https://windsurf.com/blog/windsurf-rebrand-announcement"
+    ],
+    "user_goal": "Show me the announcement about Windsurf's company rebrand and what it means for their products.",
+    "route_description": "Navigate from the main page through intermediate pages to a specific target page.",
+    "requires_auth": false,
+    "auth_only_info_used": []
+  },
+  {
+    "id": "T087",
+    "difficulty": 2,
+    "start_url": "https://windsurf.com/",
+    "goal_url": "https://windsurf.com/blog/windsurf-wave-5",
+    "path": [
+      "https://windsurf.com/",
+      "https://windsurf.com/blog/windsurf-wave-11",
+      "https://windsurf.com/blog/windsurf-wave-7",
+      "https://windsurf.com/blog/windsurf-wave-5"
+    ],
+    "user_goal": "Show me what new features were introduced in Windsurf Wave 5.",
+    "route_description": "Navigate from the main page through intermediate pages to a specific target page.",
+    "requires_auth": false,
+    "auth_only_info_used": []
+  },
+  {
+    "id": "T088",
+    "difficulty": 3,
+    "start_url": "https://windsurf.com/",
+    "goal_url": "https://windsurf.com/subscription/cancel",
+    "path": [
+      "https://windsurf.com/",
+      "https://windsurf.com/account/login",
+      "https://windsurf.com/profile",
+      "https://windsurf.com/subscription/manage-plan",
+      "https://windsurf.com/subscription/cancel"
+    ],
+    "user_goal": "I need to cancel my Windsurf subscription.",
+    "route_description": "Navigate from the main page through intermediate pages to a specific target page.",
+    "requires_auth": true,
+    "auth_only_info_used": [
+      "https://windsurf.com/profile",
+      "https://windsurf.com/subscription/manage-plan"
+    ]
+  },
+  {
+    "id": "T089",
+    "difficulty": 3,
+    "start_url": "https://windsurf.com/",
+    "goal_url": "https://windsurf.com/autocomplete",
+    "path": [
+      "https://windsurf.com/",
+      "https://windsurf.com/blog/windsurf-wave-11",
+      "https://windsurf.com/blog/windsurf-wave-10-browser",
+      "https://windsurf.com/blog/windsurf-wave-4",
+      "https://windsurf.com/autocomplete"
+    ],
+    "user_goal": "Show me how Windsurf's autocomplete feature works and what makes it context-aware.",
+    "route_description": "Navigate from the main page through intermediate pages to a specific target page.",
+    "requires_auth": false,
+    "auth_only_info_used": []
+  },
+  {
+    "id": "T090",
+    "difficulty": 3,
+    "start_url": "https://windsurf.com/",
+    "goal_url": "https://windsurf.com/blog/windsurf-wave-3",
+    "path": [
+      "https://windsurf.com/",
+      "https://windsurf.com/blog/windsurf-wave-11",
+      "https://windsurf.com/blog/windsurf-wave-10-browser",
+      "https://windsurf.com/blog/windsurf-wave-4",
+      "https://windsurf.com/blog/windsurf-wave-3"
+    ],
+    "user_goal": "Show me what's new in Windsurf Wave 3.",
+    "route_description": "Navigate from the main page through intermediate pages to a specific target page.",
+    "requires_auth": false,
+    "auth_only_info_used": []
+  },
+  {
+    "id": "T091",
+    "difficulty": 3,
+    "start_url": "https://windsurf.com/",
+    "goal_url": "https://windsurf.com/flows",
+    "path": [
+      "https://windsurf.com/",
+      "https://windsurf.com/blog/windsurf-wave-11",
+      "https://windsurf.com/blog/windsurf-wave-10-browser",
+      "https://windsurf.com/blog/windsurf-wave-4",
+      "https://windsurf.com/flows"
+    ],
+    "user_goal": "Show me information about Flows in Windsurf.",
+    "route_description": "Navigate from the main page through intermediate pages to a specific target page.",
+    "requires_auth": false,
+    "auth_only_info_used": []
+  },
+  {
+    "id": "T092",
+    "difficulty": 3,
+    "start_url": "https://windsurf.com/",
+    "goal_url": "https://windsurf.com/supercomplete",
+    "path": [
+      "https://windsurf.com/",
+      "https://windsurf.com/blog/windsurf-wave-11",
+      "https://windsurf.com/blog/windsurf-wave-10-browser",
+      "https://windsurf.com/blog/windsurf-wave-4",
+      "https://windsurf.com/supercomplete"
+    ],
+    "user_goal": "Show me how Windsurf's Tab autocomplete feature works and what makes it context-aware across my entire codebase.",
+    "route_description": "Navigate from the main page through intermediate pages to a specific target page.",
+    "requires_auth": false,
+    "auth_only_info_used": []
+  },
+  {
+    "id": "T093",
+    "difficulty": 3,
+    "start_url": "https://windsurf.com/",
+    "goal_url": "https://windsurf.com/blog/pricing-v2",
+    "path": [
+      "https://windsurf.com/",
+      "https://windsurf.com/blog/windsurf-wave-11",
+      "https://windsurf.com/blog/windsurf-wave-10-planning-mode",
+      "https://windsurf.com/blog/windsurf-wave-8-teams-and-enterprise",
+      "https://windsurf.com/blog/pricing-v2"
+    ],
+    "user_goal": "Show me the details about Windsurf's pricing updates in version 2.",
+    "route_description": "Navigate from the main page through intermediate pages to a specific target page.",
+    "requires_auth": false,
+    "auth_only_info_used": []
+  },
+  {
+    "id": "T094",
+    "difficulty": 3,
+    "start_url": "https://windsurf.com/",
+    "goal_url": "https://windsurf.com/blog/windsurf-wave-6",
+    "path": [
+      "https://windsurf.com/",
+      "https://windsurf.com/blog/windsurf-wave-11",
+      "https://windsurf.com/blog/windsurf-wave-10-planning-mode",
+      "https://windsurf.com/blog/windsurf-wave-8-teams-and-enterprise",
+      "https://windsurf.com/blog/windsurf-wave-6"
+    ],
+    "user_goal": "Show me what's new in Windsurf Wave 6.",
+    "route_description": "Navigate from the main page through intermediate pages to a specific target page.",
+    "requires_auth": false,
+    "auth_only_info_used": []
+  },
+  {
+    "id": "T095",
+    "difficulty": 3,
+    "start_url": "https://windsurf.com/",
+    "goal_url": "https://windsurf.com/team/analytics",
+    "path": [
+      "https://windsurf.com/",
+      "https://windsurf.com/blog/windsurf-wave-11",
+      "https://windsurf.com/blog/windsurf-wave-10-planning-mode",
+      "https://windsurf.com/blog/windsurf-wave-8-teams-and-enterprise",
+      "https://windsurf.com/team/analytics"
+    ],
+    "user_goal": "Show me the team analytics dashboard for our Windsurf account.",
+    "route_description": "Navigate from the main page through intermediate pages to a specific target page.",
+    "requires_auth": false,
+    "auth_only_info_used": []
+  },
+  {
+    "id": "T096",
+    "difficulty": 3,
+    "start_url": "https://windsurf.com/",
+    "goal_url": "https://windsurf.com/team/team_settings/windsurf_settings/github",
+    "path": [
+      "https://windsurf.com/",
+      "https://windsurf.com/blog/windsurf-wave-11",
+      "https://windsurf.com/blog/windsurf-wave-10-planning-mode",
+      "https://windsurf.com/blog/windsurf-wave-8-teams-and-enterprise",
+      "https://windsurf.com/team/team_settings/windsurf_settings/github"
+    ],
+    "user_goal": "Show me the GitHub integration settings for my Windsurf team.",
+    "route_description": "Navigate from the main page through intermediate pages to a specific target page.",
+    "requires_auth": false,
+    "auth_only_info_used": []
+  },
+  {
+    "id": "T097",
+    "difficulty": 3,
+    "start_url": "https://windsurf.com/",
+    "goal_url": "https://windsurf.com/team/windsurf_settings",
+    "path": [
+      "https://windsurf.com/",
+      "https://windsurf.com/blog/windsurf-wave-11",
+      "https://windsurf.com/blog/windsurf-wave-10-planning-mode",
+      "https://windsurf.com/blog/windsurf-wave-8-teams-and-enterprise",
+      "https://windsurf.com/team/windsurf_settings"
+    ],
+    "user_goal": "Show me the team settings for Windsurf.",
+    "route_description": "Navigate from the main page through intermediate pages to a specific target page.",
+    "requires_auth": false,
+    "auth_only_info_used": []
+  },
+  {
+    "id": "T098",
+    "difficulty": 3,
+    "start_url": "https://windsurf.com/",
+    "goal_url": "https://windsurf.com/team/windsurf_settings/knowledge",
+    "path": [
+      "https://windsurf.com/",
+      "https://windsurf.com/blog/windsurf-wave-11",
+      "https://windsurf.com/blog/windsurf-wave-10-planning-mode",
+      "https://windsurf.com/blog/windsurf-wave-8-teams-and-enterprise",
+      "https://windsurf.com/team/windsurf_settings/knowledge"
+    ],
+    "user_goal": "Show me how to set up and manage the knowledge base settings for my Windsurf team.",
+    "route_description": "Navigate from the main page through intermediate pages to a specific target page.",
+    "requires_auth": false,
+    "auth_only_info_used": []
+  },
+  {
+    "id": "T099",
+    "difficulty": 3,
+    "start_url": "https://windsurf.com/",
+    "goal_url": "https://windsurf.com/blog/beta-launch-announcement",
+    "path": [
+      "https://windsurf.com/",
+      "https://windsurf.com/blog/windsurf-wave-11",
+      "https://windsurf.com/blog/windsurf-wave-7",
+      "https://windsurf.com/blog/windsurf-rebrand-announcement",
+      "https://windsurf.com/blog/beta-launch-announcement"
+    ],
+    "user_goal": "Show me the original beta launch announcement for Codeium and learn about the vision behind this AI coding tool.",
+    "route_description": "Navigate from the main page through intermediate pages to a specific target page.",
+    "requires_auth": false,
+    "auth_only_info_used": []
+  },
+  {
+    "id": "T100",
+    "difficulty": 3,
+    "start_url": "https://windsurf.com/",
+    "goal_url": "https://windsurf.com/blog/windsurf-launch",
+    "path": [
+      "https://windsurf.com/",
+      "https://windsurf.com/blog/windsurf-wave-11",
+      "https://windsurf.com/blog/windsurf-wave-7",
+      "https://windsurf.com/blog/windsurf-rebrand-announcement",
+      "https://windsurf.com/blog/windsurf-launch"
+    ],
+    "user_goal": "Show me the blog post announcing the original launch of the Windsurf Editor.",
+    "route_description": "Navigate from the main page through intermediate pages to a specific target page.",
+    "requires_auth": false,
+    "auth_only_info_used": []
+  }
+]
