@@ -91,7 +91,7 @@ In this repo, Track 2 is implemented by:
   - `start_url`: where the agent begins
   - `goal_url`: where the agent should end up
   - `user_goal`: natural language goal description
-  - `path`: expert/demo navigation trace (Devin-style trace)
+  - `path`: expert/demo navigation trace
 
 - **`curriculum_tailored.json`**  
   The concrete curriculum used for training and evaluation.
@@ -329,23 +329,6 @@ These artifacts are what you would use to **compare methods, debug reward shapin
 
 ---
 
-## 6. Devin-Style Traces and Evaluation
-
-The curriculum’s `path` field behaves like a **Devin-style expert trace**:
-
-- Serves as ground-truth navigation behavior for reward shaping.
-- Lets you compare the agent’s path vs. the expert’s path.
-
-You can:
-
-- Log the agent’s chosen paths for specific tasks.
-- Compare them to `path` sequences from the curriculum.
-- Visualize where the agent deviates from or matches the expert.
-
-The code in `new_rl_agent.py` is annotated with Devin-style comments that explain where these traces are used.
-
----
-
 ## 7. Using This Pipeline on Hugging Face Infrastructure
 
 You can treat this repository as a **backend training pipeline** and layer Hugging Face tooling on top.
@@ -396,4 +379,5 @@ Your CI / evaluation harness can then call those endpoints to:
   Increase episodes, tweak shaping mode, or rely on Optuna tuning for `D_potential` and other parameters.
 
 If you run into issues not covered here, inspect `new_rl_agent.py` comments for design intent and debug hints.
+
 
