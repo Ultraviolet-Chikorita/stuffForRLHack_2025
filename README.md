@@ -1,5 +1,5 @@
-# Windsurf Website RL Navigation Agent
-This project implements a **tabular Q-learning agent** that learns to navigate a mirrored version of the Windsurf website, using a curriculum of navigation tasks.
+# Website RL Navigation Agent
+This project implements a **tabular Q-learning agent** that learns to navigate a mirrored version of the Windsurf website - as an example, obviously replaceable with any base URL as set in the program, using a curriculum of navigation tasks.
 
 It is structured to match three tracks of work:
 
@@ -396,3 +396,4 @@ Your CI / evaluation harness can then call those endpoints to:
   Increase episodes, tweak shaping mode, or rely on Optuna tuning for `D_potential` and other parameters.
 
 If you run into issues not covered here, inspect `new_rl_agent.py` comments for design intent and debug hints.
+
