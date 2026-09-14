@@ -2,7 +2,7 @@
 
 A hackathon prototype that turns a real website into a small reinforcement-learning environment: crawl the site, normalize its navigable structure, build a task curriculum, and train an agent to choose navigation actions that reach target pages efficiently.
 
-> **Project status:** completed hackathon/research prototype. The interesting work is primarily in environment construction, state/action design, curriculum generation, and reward shaping. The learning algorithm is intentionally simple (tabular Q-learning), so this should not be read as a claim of state-of-the-art RL.
+> **Project status:** completed hackathon/research prototype. The main work is in environment construction, state/action design, curriculum generation, and reward shaping. The learning algorithm is intentionally simple (tabular Q-learning), so this should not be read as a claim of state-of-the-art RL.
 
 ## System overview
 
@@ -19,26 +19,27 @@ flowchart LR
 
 The project treats browser navigation as a sequential decision problem rather than a one-shot link-ranking task. A state captures where the agent currently is and what navigation options are available; actions correspond to navigable elements; rewards encode progress toward task targets and discourage unnecessary or invalid navigation.
 
-## Reviewer guide
+## Key components
 
-| File | What to inspect |
+| File | Responsibility |
 | --- | --- |
 | [`hover_crawler.py`](hover_crawler.py) | crawling and extraction of interactive/navigation structure |
 | [`curriculum_builder.py`](curriculum_builder.py) | conversion of crawled structure into training tasks |
 | [`new_rl_agent.py`](new_rl_agent.py) | latest environment/agent/training path |
 | [`rl_agent.py`](rl_agent.py) | earlier training implementation and iteration history |
 | [`base.py`](base.py) | shared crawler/environment utilities |
+| [`tests/`](tests/) | deterministic state-transition, reward, Q-update and exploration-decay tests |
 | [`crawl_result.json`](crawl_result.json) | retained example crawl artifact |
 | [`curriculum_tailored.json`](curriculum_tailored.json) | retained example task curriculum |
 | [`reward_curve.png`](reward_curve.png) | example training artifact |
 
-The strongest engineering signal here is the translation from messy browser/DOM behavior into a tractable environment, not the complexity of the Q-learning update itself.
+The main engineering challenge is the translation from messy browser/DOM behavior into a tractable environment, rather than the complexity of the Q-learning update itself.
 
 ## Pipeline
 
 ### 1. Crawl and normalize
 
-`hover_crawler.py` explores the target site and records pages and navigable interactions. A local mirror/example crawl is retained in the repository so the later stages can be inspected without relying entirely on a live site.
+`hover_crawler.py` explores the target site and records pages and navigable interactions. A local mirror/example crawl is retained in the repository so the later stages can run without relying entirely on a live site.
 
 ### 2. Build a curriculum
 
@@ -61,7 +62,13 @@ python -m venv .venv
 pip install -r requirements.txt
 ```
 
-The crawler path may require a compatible browser/WebDriver and access to the target site. For reviewing the RL/environment code, the checked-in crawl and curriculum artifacts allow much of the pipeline to be understood without recrawling.
+The crawler path may require a compatible browser/WebDriver and access to the target site. The checked-in crawl and curriculum artifacts allow the environment/training stages to be exercised without recrawling.
+
+Run the deterministic tests with:
+
+```bash
+python -m unittest discover -s tests -v
+```
 
 ## Repository structure
 
@@ -71,6 +78,7 @@ curriculum_builder.py     training-task generation
 new_rl_agent.py           latest agent/environment implementation
 rl_agent.py               earlier implementation
 base.py                   shared utilities
+tests/                    deterministic RL/environment regressions
 site_mirror/              retained crawl/mirror material
 crawl_result.json         example crawl output
 curriculum_tailored.json  example curriculum
@@ -85,6 +93,6 @@ reward_curve.png          example training output
 - **Evaluation:** the repository does not contain a large, frozen held-out benchmark establishing generalization to unseen sites.
 - **Artifacts:** crawl/result files are retained as reproducibility/debug examples rather than generated-package assets.
 
-## What I would change now
+## Future work
 
-I would keep the crawler/environment boundary but replace the tabular state representation with learned or structured page/action features, freeze a multi-site benchmark with deterministic fixtures, and report success/path-efficiency against non-RL baselines such as shortest-path search, heuristic link ranking, and a policy trained without curriculum shaping. I would also add tests around state transitions and reward invariants before increasing agent complexity.
+A more scalable version would keep the crawler/environment boundary but replace the tabular state representation with learned or structured page/action features, freeze a multi-site benchmark with deterministic fixtures, and report success/path-efficiency against non-RL baselines such as shortest-path search, heuristic link ranking, and a policy trained without curriculum shaping. The deterministic transition/reward tests should be extended alongside any increase in agent complexity.
